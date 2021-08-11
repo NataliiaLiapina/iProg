@@ -1,0 +1,172 @@
+@media screen and (max-width: 1080px){
+    .telegram{
+        right: 30px;
+    }
+    .telegram p{
+        margin-right: 25px;
+    }
+    .lang{
+        left: 30px;
+    }
+}
+@media screen and (max-width: 976px) {
+    .burger img{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .telegram{
+        display: none;
+    }
+    .about{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .about-left{
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .about-right{
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 748px){
+    header{
+        height: auto;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .title{
+        height: auto;
+       padding-top: 150px;
+       box-sizing: border-box;
+    }
+    .title a{
+        text-decoration: none;
+    }
+    button.btn{
+        display: block;
+        margin: 0 auto;
+    }
+    form{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    form input{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .input-text,
+    .input-email,
+    .input-submit {
+        width: 100%;
+    }
+    .input-email{
+        border:none
+    }
+    .video{
+        margin-top: 50px;
+    }
+    .video iframe{
+        width: 90%;
+        height: 350px;
+    }
+    .about{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .about-left h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    hr{
+        float: none;
+    }
+    .about-left p{
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    button{
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .col-1,
+    .col-2{
+        width: 100%;
+    }
+    .col-2{
+        padding-top: 0;
+    }
+    .timer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .timer p{
+        width: 100%;
+    }
+    .timer-block{
+        width:100%;
+        margin-top: 0;
+    }
+    .steps-img{
+        width: 100%;
+        float: none;
+    }
+    .steps-img img{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+    .steps{
+        width: 100%;
+        float: none;
+        padding-top: 50px;
+    }
+    .steps h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    .steps hr{
+        margin-bottom: 30px;
+    }
+    .steps p{
+        float: none;
+        padding-left: 0;
+    }
+    .steps button{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 480px){
+    .title{
+       padding-top: 100px;
+    }
+    .title h1{
+        font-size: 56px;
+    } 
+    form{
+        width: 90%;
+    } 
+    .video iframe{
+        height: 250px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 360px){
+    .title h1{
+        font-size: 48px;
+    } 
+    .timer-round{
+        margin-right:15px;
+     }
+}

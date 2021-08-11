@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>iProg+</title>
+</head>
+<body>
+    <div class="back"></div>
+    <div class="hidden-menu">
+        <div class="close" id="close">
+            <img src="images/svg/close.svg" alt="icon" />
+        </div>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">What is it?</a></li>
+            <li><a href="#order">How to buy?</a></li>
+        </ul>
+        <div class="hidden-menu-telegram">
+            <p>automastercto@gmail.com</p>
+            <a href="https://t.me/joinchat/zp-e0867ibZjYWRi"><img src="images/svg/telegram_black.svg" /></a>
+        </div>
+    </div>
+    <header id="home">
+        <nav class="nav-bar nav">
+            <div class="lang">
+                <ul>
+                    <li><a href="index.html">Ru</a></li>
+                    <li><a href="en.html">En</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">What is it?</a></li>
+                    <li><a href="#order">How to buy?</a></li>
+                </ul>
+            </div>
+            <div class="telegram">
+                <p>automastercto@gmail.com</p>
+                <a href="https://t.me/joinchat/zp-e0867ibZjYWRi"><img src="images/svg/telegram.svg" data-back-src="images/svg/telegram_black.svg"
+                    data-def-src="images/svg/telegram.svg" /></a>
+            </div>
+            <div class="burger" id="burger">
+                <img src="images/svg/menu.svg" data-back-src="images/svg/menu-black.svg"
+                data-def-src="images/svg/menu.svg" />
+            </div>
+        </nav>
+        <div class="title">
+            <h1>iProg+ programmer</h1>
+            <p>Buying together<br/><br/>MR140 + HV240</p>
+            <a href="#order"><button class="btn button">Want to buy</button></a>
+            <!-- <form id="my_form_email" method="post" action="">
+                <input class="input-text" name="fio" type="text" placeholder="Имя" required>
+                <input class="input-email" name="mail" type="email" placeholder="E-mail" required>
+                <input class="input-submit" type="submit" value="Хочу купить">
+            </form>
+            <div class="message-email"><p id="my_message_email"></p></div> -->
+        </div> 
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/8ymJelICsDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </header>
+    <main>
+        <div class="about" id="about">
+            <div class="">
+                <div class="about-left button">
+                    <h1>about iProg+</h1>
+                    <hr><br/>
+                    <p>Module (script) for iProg + for working with Delphi HV240\MR140 blocks in BSL mode.
+                        The device was developed as a specialized programmer for working with various automotive systems.</p>  
+                        <a href="#order"><button class="button">Want to buy</button></a>
+                </div>
+                <div class="about-right">
+                    <div class="col-1">
+                        <div class="about-block">
+                            <img src="images/svg/about-1.svg" alt="" />
+                            <p> It is intended, first of all, for lifting the "sleeping" blocks in case of unsuccessful firmware via OBD.</p>
+                        </div>
+                        <div class="about-block">
+                            <img src="images/svg/about-2.svg" alt="" />
+                            <p>Side "properties" of this module include the ability to write a non-trained EEPROM.</p>
+                        </div>
+                        <!-- <img src="images/IMG-af0df9b63a8a92c9f6f1a6fe04cb23eb-V.jpg" alt="" />
+                        <img src="images/IMG-4a141fb65fca0f2611b8be20931f1ae4-V.jpg" alt="" /> -->
+                    </div>
+                    <div class="col-2">
+                        <div class="about-block">
+                            <img src="images/svg/about-3.svg" alt="" />
+                            <p> Allows you to install the ECU on the car and operate it.
+                                If necessary, bind the keys, having reached the master on their own. </p>
+                        </div>
+                        <div class="about-block">
+                            <img src="images/svg/about-4.svg" alt="" />
+                            <p> The module reads / writes EEPROM and FLASH without counting CS.
+                                Does not carry out identification and does not work with calibrations.</p>
+                        </div>
+                        <!-- <img src="images/IMG-f7a4a7773074c837698cef2c83091530-V.jpg" alt="" /> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="timer">
+            <p>We accept payments until 07/31/2021 and distribute the script</p>
+            <div class="timer-block">
+                <div class="timer-round">
+                    <div id="days" class="timer-value"></div>
+                    <span><br />days</span>
+                </div>
+                <div class="timer-round">
+                    <div id="hours" class="timer-value"></div>
+                    <span><br />hours</span>
+                </div>
+                <div class="timer-round">
+                    <div id="minutes" class="timer-value"></div>
+                    <span><br />minutes</span>
+                </div>
+                <div class="timer-round">
+                    <div id="seconds" class="timer-value"></div>
+                    <span><br />seconds</span>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="steps-order" id="order">
+            <div class="steps-img">
+                <img src="images/iProg.jpg" alt="" />
+            </div>
+            <div class="steps button">
+                <h1>how to buy?</h1>
+                <hr><br/>
+                <!-- <p><span>01.&nbsp;</span>Мы организовываем складчину. Ориентировочная цена будет составлять 50$.</p> -->
+                <!-- <p><span>02.&nbsp;</span>Заполняйте форму и отправляйте заявку.</p>
+                <p><span>03.&nbsp;</span>Ждем заявки от всех желающих до 15.05.2021 и покупаем.</p> -->
+                <!-- <a href="#home"><button class="button">Оставить заявку</button></a> -->
+                <p><span>1.&nbsp;</span>We are organizing the buying together. The price will be $ 50.</p>
+                <p><span>2.&nbsp;Important! </span><b>After payment, write your email,
+                    time and method of payment in 
+                    <a href="https://t.me/joinchat/zp-e0867ibZjYWRi" target="_blank">Telegram</a> 
+                    or to e-mail automastercto@gmail.com</b></p>
+                <p><span>3.&nbsp;</span>Method of payment:</p>
+                <p class="paypal">PayPal</p>
+                <div class="paypal-form">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="XJUDSB8PYUU6G">
+                        <input type="image" src="https://www.paypalobjects.com/ru_RU/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+                
+                <p class="privat">Internet card</p>
+                <p class="privat">PrivatBank 5169 3600 0575 3375</p>
+                <img src="images/viber_2021-06-15_09-01-23.png">
+            </div>
+        </div>
+    </main>
+    <div style="clear: both;"></div>
+    <footer>
+        <!-- <div class="contacts">
+            <h1>Контакты</h1>
+            <p>info@fm.ua</p>
+            <p>Telegram</p>
+        </div> -->
+        <p>Development by <a href="http://create-site.ho.ua/" target="_blank">Nataliia Liapina</a></p>
+    </footer>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
